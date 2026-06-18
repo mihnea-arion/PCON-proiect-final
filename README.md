@@ -34,9 +34,6 @@ Activează camera
 - aranjare/curatare/ordonare generala a patch-ului si subpatch-urilor pentru vizualizare mai buna si logica mai clara
 - creare interfata utilizator (presentation mode)
 
-## Link-uri
-[PLACEHOLDER]
-
 # Dezvoltarea proiectului
 Pornind de la un patch dezvoltat pentru Tema 4 de Max pentru IMECISS (cu scop de exemplificare a utilizarii senzorilor pentru controlul parametrilor), m-am gândit să creez un sistem audio generativ ambiental care se mulează pe atmosfera camerei pornind de la caracteristicile luminii prezente în încăpere, dar cu multiple îmbunătățiri și adăugiri.
 
