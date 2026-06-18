@@ -15,6 +15,18 @@ Deschide patch-ul generativ_ambiental.maxpat în Max/MSP/Jitter
 
 Activează camera
 
+## Elemente obligatorii
+- Max/MSP/Jitter
+
+- patch-ul generativ_ambiental.maxpat
+
+- cameră web (sau de altă natură) conectată la calculator
+
+- boxe/difuzoare conectate la calculator
+
+# Dezvoltarea proiectului
+Pornind de la un patch dezvoltat pentru Tema 4 de Max pentru IMECISS (cu scop de exemplificare a utilizarii senzorilor pentru controlul parametrilor), m-am gândit să creez un sistem audio generativ ambiental care se mulează pe atmosfera camerei pornind de la caracteristicile luminii prezente în încăpere, dar cu multiple îmbunătățiri și adăugiri.
+
 ## Istoric
 
 (07.05.2026) - Inițializare proiect: Primul Fork + Încărcare patch inițial (Work In Progress)
@@ -34,19 +46,7 @@ Activează camera
 - aranjare/curatare/ordonare generala a patch-ului si subpatch-urilor pentru vizualizare mai buna si logica mai clara
 - creare interfata utilizator (presentation mode)
 
-# Dezvoltarea proiectului
-Pornind de la un patch dezvoltat pentru Tema 4 de Max pentru IMECISS (cu scop de exemplificare a utilizarii senzorilor pentru controlul parametrilor), m-am gândit să creez un sistem audio generativ ambiental care se mulează pe atmosfera camerei pornind de la caracteristicile luminii prezente în încăpere, dar cu multiple îmbunătățiri și adăugiri.
-
 ## Unelte/Referinte
 - patch-urile din .maxhelp pentru exemplele ilustrative ale componentelor
 - https://cycling74.com/forums pentru explicatii suplimentare
 - ChatGPT folosit cu scop consultativ
-
-## Elemente obligatorii
-- Max/MSP/Jitter
-
-- patch-ul generativ_ambiental.maxpat
-
-- cameră web (sau de altă natură) conectată la calculator
-
-- boxe/difuzoare conectate la calculator
