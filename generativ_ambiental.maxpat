@@ -22,20 +22,8 @@
 					"patching_rect" : [ 522.0, 14.0, 315.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 497.5, 87.0, 251.0, 34.0 ],
+					"presentation_rect" : [ 497.5, 58.0, 251.0, 34.0 ],
 					"text" : "Sistem generativ ambiental\npe baza ponderii nuantei din input-ul camerei "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 142.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 567.0, 94.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -47,7 +35,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 466.0, 706.0, 86.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 626.5, 158.0, 86.0, 20.0 ],
+					"presentation_rect" : [ 627.0, 179.0, 86.0, 20.0 ],
 					"text" : "offset octava"
 				}
 
@@ -92,7 +80,7 @@
 					"patching_rect" : [ 1057.0, 127.0, 334.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 721.5, 158.0, 111.0, 103.0 ],
+					"presentation_rect" : [ 722.0, 179.0, 111.0, 103.0 ],
 					"text" : "Roșu = Do (1)\nPortocaliu = Re (2)\nGalben = Mi (3)\nVerde = Fa (4)\nCyan = Sol (5)\nAlbastru = La (6)\nMov = Si (7)"
 				}
 
@@ -105,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 845.0, 431.0, 200.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 419.5, 158.0, 182.0, 20.0 ],
+					"presentation_rect" : [ 420.0, 179.0, 182.0, 20.0 ],
 					"text" : "Display Gama / Stare sistem"
 				}
 
@@ -118,7 +106,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 434.0, 439.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 515.5, 266.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 516.0, 287.0, 100.0, 20.0 ],
 					"text" : "Vizualizare note"
 				}
 
@@ -212,8 +200,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 845.0, 399.0, 160.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 419.5, 180.0, 160.0, 22.0 ],
-					"text" : "La Major"
+					"presentation_rect" : [ 420.0, 201.0, 160.0, 22.0 ],
+					"text" : "Generative System Offline"
 				}
 
 			}
@@ -1681,7 +1669,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 106.0, 150.0, 20.0 ],
-					"text" : "deschide camera web"
+					"presentation" : 1,
+					"presentation_rect" : [ 678.0, 116.0, 150.0, 20.0 ],
+					"text" : "Deschide camera web"
 				}
 
 			}
@@ -3179,8 +3169,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 79.0, 150.0, 20.0 ],
-					"text" : "toggle on/off"
+					"patching_rect" : [ 318.0, 79.0, 83.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 443.0, 109.0, 76.0, 34.0 ],
+					"text" : "Toggle on/off"
 				}
 
 			}
@@ -3217,6 +3210,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 408.0, 78.0, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 637.0, 115.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -3229,7 +3224,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 288.0, 77.0, 24.0, 24.0 ]
+					"patching_rect" : [ 288.0, 77.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.0, 114.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -3281,7 +3278,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 467.0, 672.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 640.5, 176.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 641.0, 197.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -13320,7 +13317,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 127.0, 548.0, 280.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 419.5, 213.0, 280.0, 45.0 ]
+					"presentation_rect" : [ 420.0, 234.0, 280.0, 45.0 ]
 				}
 
 			}
@@ -13345,7 +13342,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 799.0, 507.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.5, 133.0, 457.0, 181.0 ]
+					"presentation_rect" : [ 395.0, 106.0, 457.0, 208.0 ]
 				}
 
 			}
