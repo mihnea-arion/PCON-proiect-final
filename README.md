@@ -4,7 +4,7 @@ Proiectul este constituit dintr-un sistem generativ destinat aplicațiilor ambie
 
 - acționare on/off prin intermediul video (spre exemplu cameră web) – luminozitatea foarte redusă dezactivează sistemul, lumina îl activează automat
 - odată depășit pragul de activare, luminozitatea controlează gama (majoră sau minoră)
-- componenta de culoare (RGB) influențează cheia în care sunt cântate gamele pe baza unei corespondențe (Roșu-Do, Portocaliu-Re, Galben-Mi, Verde-Fa, Cyan-Sol, Albastru-La, Mov-Si)
+- componenta de nuanță (în spațiul de culori HSL) influențează cheia în care sunt cântate gamele pe baza unei corespondențe (Roșu-Do, Portocaliu-Re, Galben-Mi, Verde-Fa, Cyan-Sol, Albastru-La, Mov-Si)
 
 ## Instalare
 Cerințe:
@@ -24,6 +24,15 @@ Activează camera
 - clarificarea scopului si implementarii proiectului; adaugare comentarii explicative in acest sens
 - separarea modulului RGB_split intr-un subpatch separat de subpatch-ul generativ_cheie pentru o logica mai clara
 - dezvoltare a subpatch-ului generativ_cheie prin adaugarea sistemului generativ pentru toate cheile ce vor fi folosite (Do, Re, Mi, Fa; Sol, La, Si), precum si a celor doua game (Majora & Minora) aferente fiecareia dintre acestea
+
+(18.06.2026) - Definitivare proiect
+- trecerea din spatiul de culori RGB in HSL 
+- implementare a unui subpatch de alegere luminozitate minor/major/off
+- implementare a activarii cheilor din subpatch-ul generativ_cheie pe baza discernerii nuantelor
+- implementare tranzitie mai lina de la luminozitate mare la luminozitate redusa si vice versa
+- organizare a diverselor elemente in subpatch-uri
+- aranjare/curatare/ordonare generala a patch-ului si subpatch-urilor pentru vizualizare mai buna si logica mai clara
+- creare interfata utilizator (presentation mode)
 
 ## Link-uri
 [PLACEHOLDER]
