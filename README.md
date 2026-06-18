@@ -38,7 +38,12 @@ Activează camera
 [PLACEHOLDER]
 
 # Dezvoltarea proiectului
-Pornind de la un patch dezvoltat pentru Tema 4 de Max pentru IMECISS, m-am gândit să creez un sistem audio generativ ambiental care se mulează pe atmosfera camerei pornind de la caracteristicile luminii prezente în încăpere, dar cu multiple îmbunătățiri și adăugiri.
+Pornind de la un patch dezvoltat pentru Tema 4 de Max pentru IMECISS (cu scop de exemplificare a utilizarii senzorilor pentru controlul parametrilor), m-am gândit să creez un sistem audio generativ ambiental care se mulează pe atmosfera camerei pornind de la caracteristicile luminii prezente în încăpere, dar cu multiple îmbunătățiri și adăugiri.
+
+## Unelte/Referinte
+- patch-urile din .maxhelp pentru exemplele ilustrative ale componentelor
+- https://cycling74.com/forums pentru explicatii suplimentare
+- ChatGPT folosit cu scop consultativ
 
 ## Elemente obligatorii
 - Max/MSP/Jitter
